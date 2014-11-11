@@ -3,7 +3,7 @@ Android-CircularRevealFragment
 
 A demo about how to show and hide fragments using the new Android Lollipop circle reveal view animations.
 
-A fragment is essentially a view, but it is displayed using a TragmentTransaction, which supports references to animations defined in resources, but circle reveal animations can't be defined in resources, so this is one solution. 
+A fragment is essentially a view, but it is displayed using a FragmentTransaction, which supports references to animations defined in resources, but circle reveal animations can't be defined in resources, so this is one solution. 
 
 The fragment takes care of displaying itself using the ViewAnimationUtils.createCircularReveal as soon as the view has been layout. It receives the center of the circle using fragment arguments bundle, which is fixed now, but you can change it. The button just adds a new fragment to the linear layout, the circle reveal animation is done by the fragment.
 
